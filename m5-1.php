@@ -7,9 +7,9 @@
 <body>
     <?php
     // データベース接続の設定
-    $dsn = 'mysql:dbname=tb250018db;host=localhost';
-    $user = 'tb-250018';
-    $password = 'xAvbNEgA7D';
+    $dsn = 'mysql:dbname=データベース名;host=localhost';
+    $user = 'ユーザー名';
+    $password = 'パスワード';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
     // テーブル作成のクエリ実行
